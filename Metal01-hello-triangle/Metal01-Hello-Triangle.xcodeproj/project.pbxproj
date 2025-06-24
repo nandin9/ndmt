@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		683AF3982E0ADB20000A8F95 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683AF3972E0ADB20000A8F95 /* MetalKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		683AF3552E0ACD29000A8F95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 683AF3372E0ACD27000A8F95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 683AF33E2E0ACD27000A8F95;
+			remoteInfo = "Metal01-Hello-Triangle";
+		};
+		683AF35F2E0ACD29000A8F95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 683AF3372E0ACD27000A8F95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 683AF33E2E0ACD27000A8F95;
+			remoteInfo = "Metal01-Hello-Triangle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		683AF33F2E0ACD27000A8F95 /* Metal01-Hello-Triangle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Metal01-Hello-Triangle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		683AF3542E0ACD29000A8F95 /* Metal01-Hello-TriangleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Metal01-Hello-TriangleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		683AF35E2E0ACD29000A8F95 /* Metal01-Hello-TriangleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Metal01-Hello-TriangleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		683AF3972E0ADB20000A8F95 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		683AF3412E0ACD27000A8F95 /* Metal01-Hello-Triangle */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Metal01-Hello-Triangle";
+			sourceTree = "<group>";
+		};
+		683AF3572E0ACD29000A8F95 /* Metal01-Hello-TriangleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Metal01-Hello-TriangleTests";
+			sourceTree = "<group>";
+		};
+		683AF3612E0ACD29000A8F95 /* Metal01-Hello-TriangleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Metal01-Hello-TriangleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		683AF33C2E0ACD27000A8F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683AF3982E0ADB20000A8F95 /* MetalKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		683AF3512E0ACD29000A8F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		683AF35B2E0ACD29000A8F95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		683AF3362E0ACD27000A8F95 = {
+			isa = PBXGroup;
+			children = (
+				683AF3412E0ACD27000A8F95 /* Metal01-Hello-Triangle */,
+				683AF3572E0ACD29000A8F95 /* Metal01-Hello-TriangleTests */,
+				683AF3612E0ACD29000A8F95 /* Metal01-Hello-TriangleUITests */,
+				683AF3962E0ADB1F000A8F95 /* Frameworks */,
+				683AF3402E0ACD27000A8F95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		683AF3402E0ACD27000A8F95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				683AF33F2E0ACD27000A8F95 /* Metal01-Hello-Triangle.app */,
+				683AF3542E0ACD29000A8F95 /* Metal01-Hello-TriangleTests.xctest */,
+				683AF35E2E0ACD29000A8F95 /* Metal01-Hello-TriangleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		683AF3962E0ADB1F000A8F95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				683AF3972E0ADB20000A8F95 /* MetalKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		683AF33E2E0ACD27000A8F95 /* Metal01-Hello-Triangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 683AF3682E0ACD29000A8F95 /* Build configuration list for PBXNativeTarget "Metal01-Hello-Triangle" */;
+			buildPhases = (
+				683AF33B2E0ACD27000A8F95 /* Sources */,
+				683AF33C2E0ACD27000A8F95 /* Frameworks */,
+				683AF33D2E0ACD27000A8F95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				683AF3412E0ACD27000A8F95 /* Metal01-Hello-Triangle */,
+			);
+			name = "Metal01-Hello-Triangle";
+			packageProductDependencies = (
+			);
+			productName = "Metal01-Hello-Triangle";
+			productReference = 683AF33F2E0ACD27000A8F95 /* Metal01-Hello-Triangle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		683AF3532E0ACD29000A8F95 /* Metal01-Hello-TriangleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 683AF36B2E0ACD29000A8F95 /* Build configuration list for PBXNativeTarget "Metal01-Hello-TriangleTests" */;
+			buildPhases = (
+				683AF3502E0ACD29000A8F95 /* Sources */,
+				683AF3512E0ACD29000A8F95 /* Frameworks */,
+				683AF3522E0ACD29000A8F95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				683AF3562E0ACD29000A8F95 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				683AF3572E0ACD29000A8F95 /* Metal01-Hello-TriangleTests */,
+			);
+			name = "Metal01-Hello-TriangleTests";
+			packageProductDependencies = (
+			);
+			productName = "Metal01-Hello-TriangleTests";
+			productReference = 683AF3542E0ACD29000A8F95 /* Metal01-Hello-TriangleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		683AF35D2E0ACD29000A8F95 /* Metal01-Hello-TriangleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 683AF36E2E0ACD29000A8F95 /* Build configuration list for PBXNativeTarget "Metal01-Hello-TriangleUITests" */;
+			buildPhases = (
+				683AF35A2E0ACD29000A8F95 /* Sources */,
+				683AF35B2E0ACD29000A8F95 /* Frameworks */,
+				683AF35C2E0ACD29000A8F95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				683AF3602E0ACD29000A8F95 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				683AF3612E0ACD29000A8F95 /* Metal01-Hello-TriangleUITests */,
+			);
+			name = "Metal01-Hello-TriangleUITests";
+			packageProductDependencies = (
+			);
+			productName = "Metal01-Hello-TriangleUITests";
+			productReference = 683AF35E2E0ACD29000A8F95 /* Metal01-Hello-TriangleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		683AF3372E0ACD27000A8F95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					683AF33E2E0ACD27000A8F95 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					683AF3532E0ACD29000A8F95 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 683AF33E2E0ACD27000A8F95;
+					};
+					683AF35D2E0ACD29000A8F95 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 683AF33E2E0ACD27000A8F95;
+					};
+				};
+			};
+			buildConfigurationList = 683AF33A2E0ACD27000A8F95 /* Build configuration list for PBXProject "Metal01-Hello-Triangle" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 683AF3362E0ACD27000A8F95;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 683AF3402E0ACD27000A8F95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				683AF33E2E0ACD27000A8F95 /* Metal01-Hello-Triangle */,
+				683AF3532E0ACD29000A8F95 /* Metal01-Hello-TriangleTests */,
+				683AF35D2E0ACD29000A8F95 /* Metal01-Hello-TriangleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		683AF33D2E0ACD27000A8F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		683AF3522E0ACD29000A8F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		683AF35C2E0ACD29000A8F95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		683AF33B2E0ACD27000A8F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		683AF3502E0ACD29000A8F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		683AF35A2E0ACD29000A8F95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		683AF3562E0ACD29000A8F95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 683AF33E2E0ACD27000A8F95 /* Metal01-Hello-Triangle */;
+			targetProxy = 683AF3552E0ACD29000A8F95 /* PBXContainerItemProxy */;
+		};
+		683AF3602E0ACD29000A8F95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 683AF33E2E0ACD27000A8F95 /* Metal01-Hello-Triangle */;
+			targetProxy = 683AF35F2E0ACD29000A8F95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		683AF3662E0ACD29000A8F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		683AF3672E0ACD29000A8F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		683AF3692E0ACD29000A8F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Metal01-Hello-Triangle/Metal01_Hello_Triangle.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A92T8J75HA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nandin.Metal01-Hello-Triangle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		683AF36A2E0ACD29000A8F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Metal01-Hello-Triangle/Metal01_Hello_Triangle.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A92T8J75HA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nandin.Metal01-Hello-Triangle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		683AF36C2E0ACD29000A8F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A92T8J75HA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nandin.Metal01-Hello-TriangleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metal01-Hello-Triangle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Metal01-Hello-Triangle";
+			};
+			name = Debug;
+		};
+		683AF36D2E0ACD29000A8F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A92T8J75HA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nandin.Metal01-Hello-TriangleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metal01-Hello-Triangle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Metal01-Hello-Triangle";
+			};
+			name = Release;
+		};
+		683AF36F2E0ACD29000A8F95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A92T8J75HA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nandin.Metal01-Hello-TriangleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "Metal01-Hello-Triangle";
+			};
+			name = Debug;
+		};
+		683AF3702E0ACD29000A8F95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A92T8J75HA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nandin.Metal01-Hello-TriangleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "Metal01-Hello-Triangle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		683AF33A2E0ACD27000A8F95 /* Build configuration list for PBXProject "Metal01-Hello-Triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683AF3662E0ACD29000A8F95 /* Debug */,
+				683AF3672E0ACD29000A8F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		683AF3682E0ACD29000A8F95 /* Build configuration list for PBXNativeTarget "Metal01-Hello-Triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683AF3692E0ACD29000A8F95 /* Debug */,
+				683AF36A2E0ACD29000A8F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		683AF36B2E0ACD29000A8F95 /* Build configuration list for PBXNativeTarget "Metal01-Hello-TriangleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683AF36C2E0ACD29000A8F95 /* Debug */,
+				683AF36D2E0ACD29000A8F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		683AF36E2E0ACD29000A8F95 /* Build configuration list for PBXNativeTarget "Metal01-Hello-TriangleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				683AF36F2E0ACD29000A8F95 /* Debug */,
+				683AF3702E0ACD29000A8F95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 683AF3372E0ACD27000A8F95 /* Project object */;
+}
